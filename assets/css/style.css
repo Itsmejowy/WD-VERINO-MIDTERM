@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #fff; 
+    color: #000;
+    text-align: left;
+    padding: 1rem;
+    position: relative;
+    border-bottom: 2px solid #000; 
+}
+
+nav ul {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header h1 span {
+    color: orange;
+}
+
+header p {
+    max-width: 600px;
+    margin-top: 1rem;
+}
+
+section {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    background-color: #000;
+    color: #fff;
+    padding: 2rem;
+}
+
+.intro img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 2rem; 
+}
+
+.build-digital {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #fff;
+}
+
+.build-digital h2 {
+    font-size: 2.5rem;
+}
+
+.how-it-works {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.step {
+    flex: 1;
+    background-color: #fff;
+    padding: 2rem;
+    margin: 1rem;
+    text-align: left;
+}
+
+.testimonials {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.testimonial {
+    margin-bottom: 2rem;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.team {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.team-member {
+    display: inline-block;
+    margin: 1rem;
+    text-align: left;
+}
+
+.team-member img {
+    border-radius: 50%;
+}
+
+.faq {
+    background-color: orange;
+    color: #333;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.contact {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.contact input, .contact button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: none;
+}
+
+.contact button {
+    background-color: orange;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
